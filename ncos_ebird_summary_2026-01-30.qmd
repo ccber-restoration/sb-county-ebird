@@ -1,0 +1,130 @@
+---
+title: "NCOS ebird summary"
+format: docx
+editor: visual
+---
+
+Francis H. Joyce
+
+30 January 2026
+
+## Background
+
+This is a quick analysis of eBird data available for the North Campus Open Space eBird hotspot ("[**UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)**](https://ebird.org/hotspot/L820867)**" as of December 2025.**
+
+The hotspot details page reports that **259 species have been recorded here, in 5,769 checklists, by 712 eBirders**.
+
+Here I look at the number of species reported per year, the number of checklists submitted per year, and the relationship between those two variables.
+
+Notes:
+
+The code to generate this summary is in [this GitHub repository](https://github.com/ccber-restoration/sb-county-ebird). Because of the large file sizes, the repository does not contain the data, which can be downloaded from eBird after submitting a data download request.
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+library(tidyverse)
+library(cowplot)
+#use ncos_data object 
+
+ncos_data <- read_rds("data-processed/ncos_data.rds")
+
+#note that infra-species taxa should be rolled up, this is just a rough cut
+ncos_species_richness <- ncos_data %>% 
+  #filter to category == species
+  filter(category == "species") %>% 
+  mutate(year = year(observation_date)) %>% 
+  group_by(year) %>% 
+  summarize(species_richness = n_distinct(common_name),
+            n_checklists = n_distinct(checklist_id))
+
+```
+
+{{< pagebreak >}}
+
+## Preliminary figures
+
+```{r}
+#| echo: false
+
+#plot over time
+fig_ncos_sr <- ggplot(data = ncos_species_richness, aes(x = year, y = species_richness)) +
+  geom_point() +
+  geom_vline(xintercept = 2018, linetype = "dashed") +
+  theme_cowplot() +
+  xlab("Year") +
+  ylab("Species recorded")
+fig_ncos_sr
+
+```
+
+Figure 1. Number of species recorded at the NCOS eBird hotspot per calendar year. The vertical dashed line indicates 2018, when NCOS was opened to the public.
+
+```{r}
+#| echo: false
+#| warning: false
+#plot over time
+fig_ncos_sr_recent <- ggplot(data = ncos_species_richness, aes(x = year, y = species_richness)) +
+  geom_point() +
+  geom_vline(xintercept = 2018, linetype = "dashed") +
+  scale_x_continuous(limits = c(2010,2025), breaks = seq(2010, 2025, 2)) +
+  theme_cowplot() +
+  xlab("Year") +
+  ylab("Species recorded")
+
+fig_ncos_sr_recent
+
+```
+
+Figure 2. Number of species recorded per year between 2010 and 2025.
+
+```{r}
+#| echo: false
+
+fig_ncos_checklists <- ggplot(data = ncos_species_richness, aes(x = year, y = n_checklists)) +
+  geom_point() +
+  geom_vline(xintercept = 2018, linetype = "dashed") +
+  theme_cowplot() +
+  xlab("Year") +
+  ylab("eBird Checklists")
+
+fig_ncos_checklists  
+
+```
+
+Figure 3. Number of checklists submitted at the NCOS eBird hotspot per calendar year. The vertical dashed line indicates 2018, when NCOS was opened to the public.
+
+```{r}
+#| echo: false
+#| warning: false
+
+fig_ncos_checklists_recent <- fig_ncos_checklists <- ggplot(data = ncos_species_richness, aes(x = year, y = n_checklists)) +
+  geom_point() +
+  geom_vline(xintercept = 2018, linetype = "dashed") +
+  scale_x_continuous(limits = c(2010, 2025), breaks = seq(2010, 2025, by = 2)) +
+  theme_cowplot() +
+  xlab("Year") +
+  ylab("eBird Checklists")
+
+fig_ncos_checklists_recent  
+
+```
+
+Figure 4. Number of checklists submitted at NCOS between 2010-2025. The vertical dashed line indicates 2018, when NCOS was opened to the public.
+
+```{r}
+#| echo: false
+
+fig_sp_vs_checklists <- ggplot(data = ncos_species_richness, aes(x = n_checklists, y = species_richness)) +
+  geom_point() +
+  theme_cowplot() +
+  xlab("Checklists per year") +
+  ylab("Species recorded per year")
+
+fig_sp_vs_checklists
+
+```
+
+Figure 5. Number of species recorded per year in relation to the number of checklists submitted per year.
