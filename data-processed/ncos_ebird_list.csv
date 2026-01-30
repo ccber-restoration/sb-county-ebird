@@ -1,0 +1,379 @@
+new_common_name,species_code,taxon_concept_id,scientific_name,order,family,family_common,category,taxonomic_order,report_as,extinct
+Snow Goose,snogoo,avibase-D3A260BC,Anser caerulescens,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,267,NA,FALSE
+Ross's Goose,rosgoo,avibase-7A24F57F,Anser rossii,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,272,NA,FALSE
+Snow/Ross's Goose,y00469,avibase-594A12EF,Anser caerulescens/rossii,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",slash,274,NA,NA
+Greater White-fronted Goose,gwfgoo,avibase-466E9077,Anser albifrons,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,287,NA,FALSE
+Brant,brant,avibase-3E04020B,Branta bernicla,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,314,NA,FALSE
+Brant (Black),blkbra1,avibase-8C09000A,Branta bernicla nigricans,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",issf,317,brant,NA
+Cackling Goose,cacgoo1,avibase-60214D49,Branta hutchinsii,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,331,NA,FALSE
+Cackling Goose (Aleutian),alcgoo1,avibase-90B3F5BB,Branta hutchinsii leucopareia,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",issf,332,cacgoo1,NA
+Cackling Goose (minima),cacgoo2,avibase-C86F2A24,Branta hutchinsii minima,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",issf,334,cacgoo1,NA
+Cackling Goose (Taverner's),tacgoo1,avibase-DA8A7869,Branta hutchinsii taverneri,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",issf,335,cacgoo1,NA
+Canada Goose,cangoo,avibase-B59E1863,Branta canadensis,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,342,NA,FALSE
+Canada Goose (moffitti/maxima),cangoo4,avibase-D44C5CFA,Branta canadensis moffitti/maxima,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",issf,343,cangoo,NA
+Canada Goose (canadensis Group),cangoo1,avibase-AB3F42B4,Branta canadensis [canadensis Group],Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",issf,349,cangoo,NA
+Mute Swan,mutswa,avibase-694C127A,Cygnus olor,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,377,NA,FALSE
+Trumpeter Swan,truswa,avibase-B86C504C,Cygnus buccinator,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,382,NA,FALSE
+Tundra Swan (Whistling),tunswa1,avibase-D611DD41,Cygnus columbianus columbianus,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",issf,385,tunswa,NA
+swan sp.,swan1,avibase-F9EC83D6,Cygnus sp.,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",spuh,394,NA,NA
+Muscovy Duck (Domestic type),musduc3,avibase-1FE65763,Cairina moschata (Domestic type),Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",domestic,446,musduc,NA
+Wood Duck,wooduc,avibase-27B2749A,Aix sponsa,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,455,NA,FALSE
+Blue-winged Teal,buwtea,avibase-90E2543E,Spatula discors,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,485,NA,FALSE
+Cinnamon Teal,cintea,avibase-0E599E6C,Spatula cyanoptera,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,487,NA,FALSE
+Blue-winged x Cinnamon Teal (hybrid),bwxtea1,avibase-3151A7CA,Spatula discors x cyanoptera,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",hybrid,494,NA,NA
+Blue-winged/Cinnamon Teal,y00314,avibase-15045575,Spatula discors/cyanoptera,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",slash,495,NA,NA
+Northern Shoveler,norsho,avibase-ED4CE8E7,Spatula clypeata,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,501,NA,FALSE
+Cinnamon Teal x Northern Shoveler (hybrid),x00630,avibase-6712E378,Spatula cyanoptera x clypeata,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",hybrid,504,NA,NA
+Gadwall,gadwal,avibase-C235A4D7,Mareca strepera,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,505,NA,FALSE
+Eurasian Wigeon,eurwig,avibase-15EE0D36,Mareca penelope,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,512,NA,FALSE
+American Wigeon,amewig,avibase-D201EB72,Mareca americana,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,517,NA,FALSE
+Mallard,mallar3,avibase-85625D75,Anas platyrhynchos,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,545,NA,FALSE
+Mallard (Domestic type),mallar2,avibase-07FFC1E5,Anas platyrhynchos (Domestic type),Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",domestic,548,mallar3,NA
+Mallard x Mexican Duck (hybrid),mallar4,avibase-2B189810,Anas platyrhynchos x diazi,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",hybrid,569,NA,NA
+Northern Pintail,norpin,avibase-56CCA717,Anas acuta,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,594,NA,FALSE
+Green-winged Teal,gnwtea,avibase-BC6C3CCE,Anas crecca,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,612,NA,FALSE
+Green-winged Teal (American),agwtea1,avibase-DE24B98D,Anas crecca carolinensis,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",issf,614,gnwtea,NA
+teal sp.,teal,avibase-093E93E1,Anatidae sp. (teal sp.),Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",spuh,654,NA,NA
+dabbling duck sp.,dabduc1,avibase-BD7161A9,Anatidae sp. (dabbling duck sp.),Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",spuh,655,NA,NA
+Canvasback,canvas,avibase-1929E1E1,Aythya valisineria,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,666,NA,FALSE
+Redhead,redhea,avibase-3072CC16,Aythya americana,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,667,NA,FALSE
+Ring-necked Duck,rinduc,avibase-0783A7EA,Aythya collaris,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,673,NA,FALSE
+Tufted Duck,tufduc,avibase-67CEA1C1,Aythya fuligula,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,687,NA,FALSE
+Lesser Scaup,lessca,avibase-50566E50,Aythya affinis,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,700,NA,FALSE
+Greater/Lesser Scaup,scaup,avibase-83610FC3,Aythya marila/affinis,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",slash,708,NA,NA
+Surf Scoter,sursco,avibase-624078BA,Melanitta perspicillata,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,728,NA,FALSE
+scoter sp.,scoter,avibase-CB56BEF1,Melanitta sp.,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",spuh,740,NA,NA
+Bufflehead,buffle,avibase-FB738385,Bucephala albeola,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,742,NA,FALSE
+Common Goldeneye,comgol,avibase-68EA281A,Bucephala clangula,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,743,NA,FALSE
+Hooded Merganser,hoomer,avibase-60E6081E,Lophodytes cucullatus,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,754,NA,FALSE
+Common Merganser,commer,avibase-407E2CA8,Mergus merganser,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,762,NA,FALSE
+Red-breasted Merganser,rebmer,avibase-8DB64266,Mergus serrator,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,770,NA,FALSE
+merganser sp.,mergan1,avibase-72CE0D84,Mergellus/Lophodytes/Mergus sp.,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",spuh,775,NA,NA
+Ruddy Duck,rudduc,avibase-675EEA7F,Oxyura jamaicensis,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",species,778,NA,FALSE
+duck sp.,duck1,avibase-D7BF5045,Anatidae (duck sp.),Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",spuh,792,NA,NA
+waterfowl sp.,waterf1,avibase-D8E1D9AB,Anatidae sp.,Anseriformes,Anatidae,"Ducks, Geese, and Waterfowl",spuh,793,NA,NA
+California Quail,calqua,avibase-F93AC929,Callipepla californica,Galliformes,Odontophoridae,New World Quail,species,1094,NA,FALSE
+Rock Pigeon (Feral Pigeon),rocpig1,avibase-533DD36C,Columba livia (Feral Pigeon),Columbiformes,Columbidae,Pigeons and Doves,domestic,1868,rocpig,NA
+Band-tailed Pigeon,batpig1,avibase-31ACA998,Patagioenas fasciata,Columbiformes,Columbidae,Pigeons and Doves,species,1966,NA,FALSE
+Eurasian Collared-Dove,eucdov,avibase-0C1EFC9B,Streptopelia decaocto,Columbiformes,Columbidae,Pigeons and Doves,species,2031,NA,FALSE
+White-winged Dove,whwdov,avibase-BFBC73AF,Zenaida asiatica,Columbiformes,Columbidae,Pigeons and Doves,species,2389,NA,FALSE
+Mourning Dove,moudov,avibase-00124D98,Zenaida macroura,Columbiformes,Columbidae,Pigeons and Doves,species,2412,NA,FALSE
+pigeon/dove sp.,dove1,avibase-D3FDB845,Columbidae sp.,Columbiformes,Columbidae,Pigeons and Doves,spuh,2856,NA,NA
+Lesser Nighthawk,lesnig,avibase-9690689D,Chordeiles acutipennis,Caprimulgiformes,Caprimulgidae,Nightjars and Allies,species,3484,NA,FALSE
+Vaux's Swift,vauswi,avibase-1775ED98,Chaetura vauxi,Apodiformes,Apodidae,Swifts,species,3897,NA,FALSE
+White-throated Swift,whtswi,avibase-B401C2DD,Aeronautes saxatalis,Apodiformes,Apodidae,Swifts,species,4158,NA,FALSE
+swift sp.,swift1,avibase-F7D77F4A,Apodidae sp.,Apodiformes,Apodidae,Swifts,spuh,4199,NA,NA
+Black-chinned Hummingbird,bkchum,avibase-4BB4F257,Archilochus alexandri,Apodiformes,Trochilidae,Hummingbirds,species,4803,NA,FALSE
+Anna's Hummingbird,annhum,avibase-42393721,Calypte anna,Apodiformes,Trochilidae,Hummingbirds,species,4814,NA,FALSE
+Costa's Hummingbird,coshum,avibase-145F1116,Calypte costae,Apodiformes,Trochilidae,Hummingbirds,species,4818,NA,FALSE
+Rufous Hummingbird,rufhum,avibase-1E1B6D19,Selasphorus rufus,Apodiformes,Trochilidae,Hummingbirds,species,4826,NA,FALSE
+Allen's Hummingbird,allhum,avibase-C25794D5,Selasphorus sasin,Apodiformes,Trochilidae,Hummingbirds,species,4831,NA,FALSE
+Rufous/Allen's Hummingbird,y00001,avibase-E2AD7435,Selasphorus rufus/sasin,Apodiformes,Trochilidae,Hummingbirds,slash,4838,NA,NA
+Selasphorus sp.,selasp,avibase-77567086,Selasphorus sp.,Apodiformes,Trochilidae,Hummingbirds,spuh,4859,NA,NA
+hummingbird sp.,hummin,avibase-868D4D43,Trochilidae sp.,Apodiformes,Trochilidae,Hummingbirds,spuh,5214,NA,NA
+Virginia Rail,virrai,avibase-87705CC4,Rallus limicola,Gruiformes,Rallidae,"Rails, Gallinules, and Coots",species,5297,NA,FALSE
+Sora,sora,avibase-2CC21529,Porzana carolina,Gruiformes,Rallidae,"Rails, Gallinules, and Coots",species,5455,NA,FALSE
+Common Gallinule,comgal1,avibase-3EF081A8,Gallinula galeata,Gruiformes,Rallidae,"Rails, Gallinules, and Coots",species,5468,NA,FALSE
+Common Gallinule (American),commoo2,avibase-135B7505,Gallinula galeata [galeata Group],Gruiformes,Rallidae,"Rails, Gallinules, and Coots",issf,5469,comgal1,NA
+American Coot,y00475,avibase-4FB248BA,Fulica americana,Gruiformes,Rallidae,"Rails, Gallinules, and Coots",species,5500,NA,FALSE
+American Coot (Red-shielded),amecoo,avibase-9BEECB7E,Fulica americana (Red-shielded),Gruiformes,Rallidae,"Rails, Gallinules, and Coots",form,5503,y00475,NA
+rail/crake sp.,rail1,avibase-B03ABA45,Rallidae sp. (rail/crake sp.),Gruiformes,Rallidae,"Rails, Gallinules, and Coots",spuh,5661,NA,NA
+Black-necked Stilt,bknsti,avibase-D543132B,Himantopus mexicanus,Charadriiformes,Recurvirostridae,Stilts and Avocets,species,5770,NA,FALSE
+Black-necked Stilt (Black-necked),bknsti1,avibase-C1D4E1DD,Himantopus mexicanus mexicanus,Charadriiformes,Recurvirostridae,Stilts and Avocets,issf,5771,bknsti,NA
+American Avocet,ameavo,avibase-8EB0C1FA,Recurvirostra americana,Charadriiformes,Recurvirostridae,Stilts and Avocets,species,5780,NA,FALSE
+Black-bellied Plover,bkbplo,avibase-27903EF7,Pluvialis squatarola,Charadriiformes,Charadriidae,Plovers and Lapwings,species,5811,NA,FALSE
+Killdeer,killde,avibase-BCF9A19A,Charadrius vociferus,Charadriiformes,Charadriidae,Plovers and Lapwings,species,5827,NA,FALSE
+Semipalmated Plover,semplo,avibase-95E28A57,Charadrius semipalmatus,Charadriiformes,Charadriidae,Plovers and Lapwings,species,5834,NA,FALSE
+Snowy Plover,snoplo5,avibase-F012ED4B,Anarhynchus nivosus,Charadriiformes,Charadriidae,Plovers and Lapwings,species,5941,NA,FALSE
+Snowy Plover (Northern),snoplo3,avibase-4E6423C8,Anarhynchus nivosus nivosus,Charadriiformes,Charadriidae,Plovers and Lapwings,issf,5942,snoplo5,NA
+plover sp.,plover2,avibase-83F7457A,Charadriidae sp.,Charadriiformes,Charadriidae,Plovers and Lapwings,spuh,5964,NA,NA
+Hudsonian Whimbrel,whimbr3,avibase-4D844D5E,Numenius hudsonicus,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6011,NA,FALSE
+Long-billed Curlew,lobcur,avibase-5284C27B,Numenius americanus,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6021,NA,FALSE
+Marbled Godwit,margod,avibase-249AE8DF,Limosa fedoa,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6051,NA,FALSE
+Short-billed Dowitcher,shbdow,avibase-4A3B2CFF,Limnodromus griseus,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6057,NA,FALSE
+Long-billed Dowitcher,lobdow,avibase-CB343E43,Limnodromus scolopaceus,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6061,NA,FALSE
+Short-billed/Long-billed Dowitcher,dowitc,avibase-87298A18,Limnodromus griseus/scolopaceus,Charadriiformes,Scolopacidae,Sandpipers and Allies,slash,6062,NA,NA
+Wilson's Snipe,wilsni1,avibase-F5C8516D,Gallinago delicata,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6104,NA,FALSE
+Wilson's Phalarope,wilpha,avibase-667C6969,Phalaropus tricolor,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6119,NA,FALSE
+Red Phalarope,redpha1,avibase-18A19380,Phalaropus fulicarius,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6120,NA,FALSE
+Red-necked Phalarope,renpha,avibase-E6F3BA54,Phalaropus lobatus,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6121,NA,FALSE
+phalarope sp.,phalar,avibase-F7B04FBA,Phalaropus sp.,Charadriiformes,Scolopacidae,Sandpipers and Allies,spuh,6123,NA,NA
+Spotted Sandpiper,sposan,avibase-0D88C072,Actitis macularius,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6126,NA,FALSE
+Solitary Sandpiper,solsan,avibase-D4A73324,Tringa solitaria,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6129,NA,FALSE
+Solitary Sandpiper (cinnamomea),solsan2,avibase-8A139367,Tringa solitaria cinnamomea,Charadriiformes,Scolopacidae,Sandpipers and Allies,issf,6131,solsan,NA
+Lesser Yellowlegs,lesyel,avibase-2C7A2673,Tringa flavipes,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6145,NA,FALSE
+Willet,willet1,avibase-E7A14E91,Tringa semipalmata,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6147,NA,FALSE
+Willet (Western),willet3,avibase-750C014A,Tringa semipalmata inornata,Charadriiformes,Scolopacidae,Sandpipers and Allies,issf,6149,willet1,NA
+Greater Yellowlegs,greyel,avibase-6EB81C98,Tringa melanoleuca,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6154,NA,FALSE
+Lesser/Greater Yellowlegs,y00476,avibase-61EFA052,Tringa flavipes/melanoleuca,Charadriiformes,Scolopacidae,Sandpipers and Allies,slash,6155,NA,NA
+Tringa sp.,tringa1,avibase-59C39D59,Tringa sp.,Charadriiformes,Scolopacidae,Sandpipers and Allies,spuh,6156,NA,NA
+Black Turnstone,blktur,avibase-0413ED30,Arenaria melanocephala,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6164,NA,FALSE
+Red Knot,redkno,avibase-B5CE8FAD,Calidris canutus,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6166,NA,FALSE
+Sharp-tailed Sandpiper,shtsan,avibase-A0A67A81,Calidris acuminata,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6181,NA,FALSE
+Stilt Sandpiper,stisan,avibase-ECDE73F2,Calidris himantopus,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6183,NA,FALSE
+Sanderling,sander,avibase-06B9BD24,Calidris alba,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6189,NA,FALSE
+Dunlin,dunlin,avibase-15369E8E,Calidris alpina,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6192,NA,FALSE
+Baird's Sandpiper,baisan,avibase-1F1AD154,Calidris bairdii,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6217,NA,FALSE
+Least Sandpiper,leasan,avibase-A47B0BD4,Calidris minutilla,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6226,NA,FALSE
+Pectoral Sandpiper,pecsan,avibase-ACC99F35,Calidris melanotos,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6227,NA,FALSE
+Western Sandpiper,wessan,avibase-01060BFD,Calidris mauri,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6231,NA,FALSE
+Semipalmated Sandpiper,semsan,avibase-F35821AA,Calidris pusilla,Charadriiformes,Scolopacidae,Sandpipers and Allies,species,6232,NA,FALSE
+peep sp.,calidr,avibase-69A488E1,Calidris sp. (peep sp.),Charadriiformes,Scolopacidae,Sandpipers and Allies,spuh,6235,NA,NA
+Calidris sp.,calidr1,avibase-9BCEC568,Calidris sp.,Charadriiformes,Scolopacidae,Sandpipers and Allies,spuh,6236,NA,NA
+large shorebird sp.,larsho1,avibase-21546ABE,Charadriiformes sp. (large shorebird sp.),Charadriiformes,Scolopacidae,Sandpipers and Allies,spuh,6238,NA,NA
+shorebird sp.,shoreb1,avibase-7FC8B7ED,Charadriiformes sp. (shorebird sp.),Charadriiformes,NA,NA,spuh,6356,NA,NA
+Black-legged Kittiwake,bklkit,avibase-FB4D08F0,Rissa tridactyla,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6449,NA,FALSE
+Bonaparte's Gull,bongul,avibase-0337440E,Chroicocephalus philadelphia,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6462,NA,FALSE
+Heermann's Gull,heegul,avibase-6996D540,Larus heermanni,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6512,NA,FALSE
+Short-billed Gull,mewgul2,avibase-342F6965,Larus brachyrhynchus,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6519,NA,FALSE
+Ring-billed Gull,ribgul,avibase-23863F65,Larus delawarensis,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6521,NA,FALSE
+Western Gull,wesgul,avibase-575A3E3B,Larus occidentalis,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6528,NA,FALSE
+American Herring Gull,amhgul1,avibase-60F32AF8,Larus smithsonianus,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6539,NA,FALSE
+California Gull,calgul,avibase-7FCE8A43,Larus californicus,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6591,NA,FALSE
+Glaucous-winged Gull,glwgul,avibase-03AC32BA,Larus glaucescens,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6596,NA,FALSE
+Western x Glaucous-winged Gull (hybrid),x00051,avibase-48386568,Larus occidentalis x glaucescens,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",hybrid,6597,NA,NA
+Western/Glaucous-winged Gull,y00656,avibase-BE959048,Larus occidentalis/glaucescens,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",slash,6601,NA,NA
+Iceland Gull,y00478,avibase-FB4FCB27,Larus glaucoides,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6606,NA,FALSE
+Larus sp.,larus1,avibase-E8FAD0BB,Larus sp.,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",spuh,6618,NA,NA
+gull sp.,larus,avibase-8D04DAAF,Larinae sp.,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",spuh,6619,NA,NA
+Least Tern,leater1,avibase-BE78E765,Sternula antillarum,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6699,NA,FALSE
+Caspian Tern,caster1,avibase-BC06BC0D,Hydroprogne caspia,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6718,NA,FALSE
+Forster's Tern,forter,avibase-D13B9122,Sterna forsteri,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6731,NA,FALSE
+Elegant Tern,eleter1,avibase-3F9E1C51,Thalasseus elegans,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6780,NA,FALSE
+Royal Tern,royter1,avibase-719935EF,Thalasseus maximus,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",species,6789,NA,FALSE
+tern sp.,tern1,avibase-A744B03C,Sterninae sp.,Charadriiformes,Laridae,"Gulls, Terns, and Skimmers",spuh,6803,NA,NA
+Pied-billed Grebe,pibgre,avibase-9A8E55D0,Podilymbus podiceps,Podicipediformes,Podicipedidae,Grebes,species,6855,NA,FALSE
+Horned Grebe,horgre,avibase-018B3169,Podiceps auritus,Podicipediformes,Podicipedidae,Grebes,species,6866,NA,FALSE
+Eared Grebe,eargre,avibase-32DCEC14,Podiceps nigricollis,Podicipediformes,Podicipedidae,Grebes,species,6876,NA,FALSE
+Horned/Eared Grebe,y00229,avibase-8AD5E890,Podiceps auritus/nigricollis,Podicipediformes,Podicipedidae,Grebes,slash,6880,NA,NA
+Western Grebe,wesgre,avibase-C6E1197B,Aechmophorus occidentalis,Podicipediformes,Podicipedidae,Grebes,species,6888,NA,FALSE
+Clark's Grebe,clagre,avibase-D05FFEF7,Aechmophorus clarkii,Podicipediformes,Podicipedidae,Grebes,species,6891,NA,FALSE
+Western/Clark's Grebe,y00012,avibase-4728D9BF,Aechmophorus occidentalis/clarkii,Podicipediformes,Podicipedidae,Grebes,slash,6895,NA,NA
+Red-throated Loon,retloo,avibase-6C50988A,Gavia stellata,Gaviiformes,Gaviidae,Loons,species,6927,NA,FALSE
+Pacific Loon,pacloo,avibase-B7D7EF23,Gavia pacifica,Gaviiformes,Gaviidae,Loons,species,6931,NA,FALSE
+Common Loon,comloo,avibase-7E022378,Gavia immer,Gaviiformes,Gaviidae,Loons,species,6933,NA,FALSE
+loon sp.,loon,avibase-C3E757A3,Gavia sp.,Gaviiformes,Gaviidae,Loons,spuh,6937,NA,NA
+Magnificent Frigatebird,magfri,avibase-8AA3B42E,Fregata magnificens,Suliformes,Fregatidae,Frigatebirds,species,7315,NA,FALSE
+Brandt's Cormorant,bracor,avibase-987A703D,Urile penicillatus,Suliformes,Phalacrocoracidae,Cormorants and Shags,species,7389,NA,FALSE
+Pelagic Cormorant,pelcor,avibase-A429B5B8,Urile pelagicus,Suliformes,Phalacrocoracidae,Cormorants and Shags,species,7391,NA,FALSE
+Double-crested Cormorant,doccor,avibase-3AC46C54,Nannopterum auritum,Suliformes,Phalacrocoracidae,Cormorants and Shags,species,7424,NA,FALSE
+Neotropic Cormorant,neocor,avibase-56036504,Nannopterum brasilianum,Suliformes,Phalacrocoracidae,Cormorants and Shags,species,7431,NA,FALSE
+cormorant sp.,cormor1,avibase-528F0652,Phalacrocoracidae sp.,Suliformes,Phalacrocoracidae,Cormorants and Shags,spuh,7460,NA,NA
+White-faced Ibis,whfibi,avibase-FD2B0309,Plegadis chihi,Pelecaniformes,Threskiornithidae,Ibises and Spoonbills,species,7468,NA,FALSE
+American Bittern,amebit,avibase-13E9F9B4,Botaurus lentiginosus,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",species,7560,NA,FALSE
+Yellow-crowned Night Heron,ycnher,avibase-C6772490,Nyctanassa violacea,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",species,7591,NA,FALSE
+Black-crowned Night Heron,bcnher,avibase-6BB94D7E,Nycticorax nycticorax,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",species,7600,NA,FALSE
+Yellow-crowned/Black-crowned Night Heron,y00610,avibase-16E3C9E9,Nyctanassa violacea/Nycticorax nycticorax,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",slash,7606,NA,NA
+Reddish Egret,redegr,avibase-D8A24A3E,Egretta rufescens,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",species,7634,NA,FALSE
+Snowy Egret,snoegr,avibase-AA7901D8,Egretta thula,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",species,7645,NA,FALSE
+Egretta sp.,egrett1,avibase-EF5443C0,Egretta sp.,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",spuh,7664,NA,NA
+Green Heron,grnher,avibase-86D45B8F,Butorides virescens,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",species,7704,NA,FALSE
+Western Cattle-Egret,categr1,avibase-AB1CB216,Ardea ibis,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",species,7724,NA,FALSE
+Great Egret,greegr,avibase-49D9148A,Ardea alba,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",species,7729,NA,FALSE
+Great Blue Heron,grbher3,avibase-93694BB5,Ardea herodias,Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",species,7753,NA,FALSE
+Great Blue Heron (Great Blue),grbher,avibase-6A9DD06F,Ardea herodias [herodias Group],Pelecaniformes,Ardeidae,"Herons, Egrets, and Bitterns",issf,7754,grbher3,NA
+American White Pelican,amwpel,avibase-866903B9,Pelecanus erythrorhynchos,Pelecaniformes,Pelecanidae,Pelicans,species,7791,NA,FALSE
+Brown Pelican,brnpel,avibase-F59AB6B3,Pelecanus occidentalis,Pelecaniformes,Pelecanidae,Pelicans,species,7792,NA,FALSE
+Turkey Vulture,turvul,avibase-36B3872D,Cathartes aura,Cathartiformes,Cathartidae,New World Vultures,species,7815,NA,FALSE
+Osprey,osprey,avibase-1327AC55,Pandion haliaetus,Accipitriformes,Pandionidae,Osprey,species,7832,NA,FALSE
+White-tailed Kite,whtkit,avibase-CAA5E106,Elanus leucurus,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",species,7843,NA,FALSE
+Golden Eagle,goleag,avibase-5F8E7CA8,Aquila chrysaetos,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",species,8064,NA,FALSE
+Sharp-shinned Hawk,shshaw,avibase-3B024163,Accipiter striatus,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",species,8256,NA,FALSE
+Cooper's Hawk,coohaw,avibase-EB98812F,Astur cooperii,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",species,8278,NA,FALSE
+Sharp-shinned/Cooper's Hawk,y00612,avibase-392FF890,Accipiter striatus/Astur cooperii,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",slash,8279,NA,NA
+Accipitrine hawk sp. (former Accipiter sp.),accipi,avibase-6A133F40,Aerospiza/Tachyspiza/Accipiter/Astur sp.,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",spuh,8304,NA,NA
+Northern Harrier,norhar2,avibase-A091D50A,Circus hudsonius,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",species,8324,NA,FALSE
+Bald Eagle,baleag,avibase-FED3756C,Haliaeetus leucocephalus,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",species,8367,NA,FALSE
+Red-shouldered Hawk,reshaw,avibase-EA4D6C0B,Buteo lineatus,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",species,8487,NA,FALSE
+Red-shouldered Hawk (elegans),reshaw4,avibase-5711B3B6,Buteo lineatus elegans,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",issf,8493,reshaw,NA
+Swainson's Hawk,swahaw,avibase-DE473F42,Buteo swainsoni,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",species,8504,NA,FALSE
+Red-tailed Hawk,rethaw,avibase-536A5157,Buteo jamaicensis,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",species,8506,NA,FALSE
+Red-tailed Hawk (calurus/alascensis),wrthaw1,avibase-1B563EE5,Buteo jamaicensis calurus/alascensis,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",issf,8509,rethaw,NA
+Buteo sp.,buteo,avibase-E91E7830,Buteo sp.,Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",spuh,8573,NA,NA
+hawk sp.,hawk,avibase-84E0CEF2,Accipitridae sp. (hawk sp.),Accipitriformes,Accipitridae,"Hawks, Eagles, and Kites",spuh,8576,NA,NA
+American Barn Owl,brnowl,avibase-6B54759B,Tyto furcata,Strigiformes,Tytonidae,Barn-Owls,species,8633,NA,FALSE
+Great Horned Owl,grhowl,avibase-FC366114,Bubo virginianus,Strigiformes,Strigidae,Owls,species,8910,NA,FALSE
+Burrowing Owl,burowl,avibase-B9EE9676,Athene cunicularia,Strigiformes,Strigidae,Owls,species,9133,NA,FALSE
+Belted Kingfisher,belkin1,avibase-3558066B,Megaceryle alcyon,Coraciiformes,Alcedinidae,Kingfishers,species,10306,NA,FALSE
+Red-breasted Sapsucker,rebsap,avibase-52F63879,Sphyrapicus ruber,Piciformes,Picidae,Woodpeckers,species,11130,NA,FALSE
+sapsucker sp.,sapsuc,avibase-CBAD2EBE,Sphyrapicus sp.,Piciformes,Picidae,Woodpeckers,spuh,11137,NA,NA
+Acorn Woodpecker,acowoo,avibase-7E327303,Melanerpes formicivorus,Piciformes,Picidae,Woodpeckers,species,11146,NA,FALSE
+Downy Woodpecker,dowwoo,avibase-1B2A6386,Dryobates pubescens,Piciformes,Picidae,Woodpeckers,species,11400,NA,FALSE
+Nuttall's Woodpecker,nutwoo,avibase-FA087E52,Dryobates nuttallii,Piciformes,Picidae,Woodpeckers,species,11410,NA,FALSE
+Hairy Woodpecker,haiwoo,avibase-9D06AF89,Leuconotopicus villosus,Piciformes,Picidae,Woodpeckers,species,11427,NA,FALSE
+Downy/Hairy Woodpecker,y00322,avibase-F298585E,Dryobates pubescens/Leuconotopicus villosus,Piciformes,Picidae,Woodpeckers,slash,11450,NA,NA
+Northern Flicker,norfli,avibase-FF9D71AF,Colaptes auratus,Piciformes,Picidae,Woodpeckers,species,11900,NA,FALSE
+Northern Flicker (Red-shafted),resfli,avibase-6CC34F06,Colaptes auratus [cafer Group],Piciformes,Picidae,Woodpeckers,issf,11906,norfli,NA
+Northern Flicker (Yellow-shafted x Red-shafted),rxyfli,avibase-03C21CAF,Colaptes auratus luteus x cafer,Piciformes,Picidae,Woodpeckers,intergrade,11912,norfli,NA
+woodpecker sp.,woodpe1,avibase-EF4617E8,Picidae sp.,Piciformes,Picidae,Woodpeckers,spuh,11934,NA,NA
+American Kestrel,amekes,avibase-20C2214E,Falco sparverius,Falconiformes,Falconidae,Falcons and Caracaras,species,12028,NA,FALSE
+Merlin,merlin,avibase-F3DA111C,Falco columbarius,Falconiformes,Falconidae,Falcons and Caracaras,species,12062,NA,FALSE
+Merlin (Taiga),taimer1,avibase-139C813E,Falco columbarius columbarius,Falconiformes,Falconidae,Falcons and Caracaras,issf,12070,merlin,NA
+Peregrine Falcon,perfal,avibase-47E58408,Falco peregrinus,Falconiformes,Falconidae,Falcons and Caracaras,species,12114,NA,FALSE
+Prairie Falcon,prafal,avibase-BBFF0963,Falco mexicanus,Falconiformes,Falconidae,Falcons and Caracaras,species,12136,NA,FALSE
+falcon sp.,falcon,avibase-A28F0D10,Falco sp.,Falconiformes,Falconidae,Falcons and Caracaras,spuh,12141,NA,NA
+Olive-sided Flycatcher,olsfly,avibase-951C150C,Contopus cooperi,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,16890,NA,FALSE
+Western Wood-Pewee,wewpew,avibase-F6CA75F0,Contopus sordidulus,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,16912,NA,FALSE
+Willow Flycatcher,wilfly,avibase-5BC4E0EF,Empidonax traillii,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,16952,NA,FALSE
+Gray Flycatcher,gryfly,avibase-DACF7A98,Empidonax wrightii,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,16965,NA,FALSE
+Western Flycatcher,wesfly,avibase-B12B8816,Empidonax difficilis,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,16975,NA,FALSE
+Western Flycatcher (Pacific-slope),pasfly,avibase-44A20283,Empidonax difficilis [difficilis Group],Passeriformes,Tyrannidae,Tyrant Flycatchers,issf,16976,wesfly,NA
+Empidonax sp.,empido,avibase-A1F323F5,Empidonax sp.,Passeriformes,Tyrannidae,Tyrant Flycatchers,spuh,16997,NA,NA
+Black Phoebe,blkpho,avibase-B182DED2,Sayornis nigricans,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,16998,NA,FALSE
+Eastern Phoebe,easpho,avibase-62CA2AF8,Sayornis phoebe,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,17007,NA,FALSE
+Say's Phoebe,saypho,avibase-28669A3D,Sayornis saya,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,17010,NA,FALSE
+Vermilion Flycatcher,verfly,avibase-1456993D,Pyrocephalus rubinus,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,17029,NA,FALSE
+Vermilion Flycatcher (Northern),verfly5,avibase-168CF8C7,Pyrocephalus rubinus [mexicanus Group],Passeriformes,Tyrannidae,Tyrant Flycatchers,issf,17030,verfly,NA
+Ash-throated Flycatcher,astfly,avibase-E0A04985,Myiarchus cinerascens,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,17323,NA,FALSE
+Tropical Kingbird,trokin,avibase-BB6B236F,Tyrannus melancholicus,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,17452,NA,FALSE
+Cassin's Kingbird,caskin,avibase-178B8955,Tyrannus vociferans,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,17461,NA,FALSE
+Western Kingbird,weskin,avibase-2281F1C7,Tyrannus verticalis,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,17467,NA,FALSE
+Cassin's/Western Kingbird,y00619,avibase-F52E24DC,Tyrannus vociferans/verticalis,Passeriformes,Tyrannidae,Tyrant Flycatchers,slash,17470,NA,NA
+yellow-bellied kingbird sp.,yebkin2,avibase-B930C7F7,Tyrannus sp. (yellow-bellied),Passeriformes,Tyrannidae,Tyrant Flycatchers,spuh,17471,NA,NA
+Eastern Kingbird,easkin,avibase-082D833C,Tyrannus tyrannus,Passeriformes,Tyrannidae,Tyrant Flycatchers,species,17472,NA,FALSE
+Tyrannus sp.,tyrann1,avibase-4BFE8C78,Tyrannus sp.,Passeriformes,Tyrannidae,Tyrant Flycatchers,spuh,17500,NA,NA
+Bell's Vireo,belvir,avibase-C3168495,Vireo bellii,Passeriformes,Vireonidae,"Vireos, Shrike-Babblers, and Erpornis",species,19197,NA,FALSE
+Hutton's Vireo,hutvir,avibase-1BDF5C00,Vireo huttoni,Passeriformes,Vireonidae,"Vireos, Shrike-Babblers, and Erpornis",species,19204,NA,FALSE
+Cassin's Vireo,casvir,avibase-EB0CD5DC,Vireo cassinii,Passeriformes,Vireonidae,"Vireos, Shrike-Babblers, and Erpornis",species,19223,NA,FALSE
+Western Warbling Vireo,wewvir2,avibase-8E6E7C64,Vireo swainsoni,Passeriformes,Vireonidae,"Vireos, Shrike-Babblers, and Erpornis",species,19247,NA,FALSE
+Loggerhead Shrike,logshr,avibase-36171C2B,Lanius ludovicianus,Passeriformes,Laniidae,Shrikes,species,21091,NA,FALSE
+California Scrub-Jay,cowscj1,avibase-151C2B3F,Aphelocoma californica,Passeriformes,Corvidae,"Crows, Jays, and Magpies",species,21303,NA,FALSE
+American Crow,amecro,avibase-69544B59,Corvus brachyrhynchos,Passeriformes,Corvidae,"Crows, Jays, and Magpies",species,21557,NA,FALSE
+Common Raven,comrav,avibase-B9B272F4,Corvus corax,Passeriformes,Corvidae,"Crows, Jays, and Magpies",species,21624,NA,FALSE
+crow/raven sp.,y00639,avibase-F00CC288,Corvus sp.,Passeriformes,Corvidae,"Crows, Jays, and Magpies",spuh,21634,NA,NA
+Chestnut-backed Chickadee,chbchi,avibase-FF592882,Poecile rufescens,Passeriformes,Paridae,"Tits, Chickadees, and Titmice",species,22094,NA,FALSE
+Oak Titmouse,oaktit,avibase-715D4DDE,Baeolophus inornatus,Passeriformes,Paridae,"Tits, Chickadees, and Titmice",species,22150,NA,FALSE
+Horned Lark,horlar,avibase-FC0A1D95,Eremophila alpestris,Passeriformes,Alaudidae,Larks,species,22710,NA,FALSE
+Tree Swallow,treswa,avibase-BBA2F9DF,Tachycineta bicolor,Passeriformes,Hirundinidae,Swallows,species,24064,NA,FALSE
+Violet-green Swallow,vigswa,avibase-75DC49AD,Tachycineta thalassina,Passeriformes,Hirundinidae,Swallows,species,24074,NA,FALSE
+Tree/Violet-green Swallow,y00701,avibase-E39A892A,Tachycineta bicolor/thalassina,Passeriformes,Hirundinidae,Swallows,slash,24078,NA,NA
+Northern Rough-winged Swallow,nrwswa,avibase-2C1981BB,Stelgidopteryx serripennis,Passeriformes,Hirundinidae,Swallows,species,24106,NA,FALSE
+Barn Swallow,barswa,avibase-58C502EA,Hirundo rustica,Passeriformes,Hirundinidae,Swallows,species,24187,NA,FALSE
+Barn Swallow (American),barswa5,avibase-43FD00D9,Hirundo rustica erythrogaster,Passeriformes,Hirundinidae,Swallows,issf,24195,barswa,NA
+Cliff Swallow,cliswa,avibase-F5C181CA,Petrochelidon pyrrhonota,Passeriformes,Hirundinidae,Swallows,species,24281,NA,FALSE
+Cliff Swallow (pyrrhonota Group),cliswa2,avibase-6EB32723,Petrochelidon pyrrhonota [pyrrhonota Group],Passeriformes,Hirundinidae,Swallows,issf,24282,cliswa,NA
+swallow sp.,swallo,avibase-55CCEE2D,Hirundinidae sp.,Passeriformes,Hirundinidae,Swallows,spuh,24305,NA,NA
+Bushtit,bushti,avibase-AE37ED4D,Psaltriparus minimus,Passeriformes,Aegithalidae,Long-tailed Tits,species,25253,NA,FALSE
+Bushtit (Pacific),bushti1,avibase-B020FDFB,Psaltriparus minimus [minimus Group],Passeriformes,Aegithalidae,Long-tailed Tits,issf,25254,bushti,NA
+Wrentit,wrenti,avibase-989B57D8,Chamaea fasciata,Passeriformes,Paradoxornithidae,Parrotbills,species,25431,NA,FALSE
+Swinhoe's White-eye,swiwhe1,avibase-B1AC8066,Zosterops simplex,Passeriformes,Zosteropidae,"White-eyes, Yuhinas, and Allies",species,25619,NA,FALSE
+Ruby-crowned Kinglet,ruckin,avibase-B60B1166,Corthylio calendula,Passeriformes,Regulidae,Kinglets,species,26844,NA,FALSE
+Golden-crowned Kinglet,gockin,avibase-154BCCAE,Regulus satrapa,Passeriformes,Regulidae,Kinglets,species,26848,NA,FALSE
+White-breasted Nuthatch,whbnut,avibase-19CCBBD2,Sitta carolinensis,Passeriformes,Sittidae,Nuthatches,species,26889,NA,FALSE
+White-breasted Nuthatch (Pacific),whbnut4,avibase-2544ADB5,Sitta carolinensis aculeata/alexandrae,Passeriformes,Sittidae,Nuthatches,issf,26898,whbnut,NA
+Red-breasted Nuthatch,rebnut,avibase-0716A71C,Sitta canadensis,Passeriformes,Sittidae,Nuthatches,species,26937,NA,FALSE
+Blue-gray Gnatcatcher,buggna,avibase-A15C5071,Polioptila caerulea,Passeriformes,Polioptilidae,Gnatcatchers,species,27123,NA,FALSE
+Blue-gray Gnatcatcher (Western),buggna2,avibase-431207D1,Polioptila caerulea [obscura Group],Passeriformes,Polioptilidae,Gnatcatchers,issf,27124,buggna,NA
+Rock Wren,rocwre,avibase-76DF73A9,Salpinctes obsoletus,Passeriformes,Troglodytidae,Wrens,species,27150,NA,FALSE
+Northern House Wren,houwre,avibase-A4F5C5C8,Troglodytes aedon,Passeriformes,Troglodytidae,Wrens,species,27191,NA,FALSE
+Northern House Wren (Northern),houwre1,avibase-51E93702,Troglodytes aedon [aedon Group],Passeriformes,Troglodytidae,Wrens,issf,27192,houwre,NA
+Marsh Wren,marwre,avibase-787E0536,Cistothorus palustris,Passeriformes,Troglodytidae,Wrens,species,27329,NA,FALSE
+Marsh Wren (paludicola Group),marwre1,avibase-B1F8968A,Cistothorus palustris [paludicola Group],Passeriformes,Troglodytidae,Wrens,issf,27330,marwre,NA
+Bewick's Wren,bewwre,avibase-603194D3,Thryomanes bewickii,Passeriformes,Troglodytidae,Wrens,species,27362,NA,FALSE
+Bewick's Wren (spilurus Group),bewwre1,avibase-2A34DC8D,Thryomanes bewickii [spilurus Group],Passeriformes,Troglodytidae,Wrens,issf,27370,bewwre,NA
+wren sp.,wren1,avibase-D81CDBB1,Troglodytidae sp.,Passeriformes,Troglodytidae,Wrens,spuh,27646,NA,NA
+European Starling,eursta,avibase-94A44032,Sturnus vulgaris,Passeriformes,Sturnidae,Starlings,species,27813,NA,FALSE
+California Thrasher,calthr,avibase-20748450,Toxostoma redivivum,Passeriformes,Mimidae,Mockingbirds and Thrashers,species,28054,NA,FALSE
+Sage Thrasher,sagthr,avibase-F6DF700B,Oreoscoptes montanus,Passeriformes,Mimidae,Mockingbirds and Thrashers,species,28069,NA,FALSE
+Northern Mockingbird,normoc,avibase-7EFF698D,Mimus polyglottos,Passeriformes,Mimidae,Mockingbirds and Thrashers,species,28114,NA,FALSE
+Western Bluebird,wesblu,avibase-AC2B812A,Sialia mexicana,Passeriformes,Turdidae,Thrushes and Allies,species,28136,NA,FALSE
+Mountain Bluebird,moublu,avibase-97B870B4,Sialia currucoides,Passeriformes,Turdidae,Thrushes and Allies,species,28144,NA,FALSE
+Hermit Thrush,herthr,avibase-B01E8BD4,Catharus guttatus,Passeriformes,Turdidae,Thrushes and Allies,species,28333,NA,FALSE
+Catharus sp.,cathus,avibase-DE0D7D24,Catharus sp.,Passeriformes,Turdidae,Thrushes and Allies,spuh,28346,NA,NA
+American Robin,amerob,avibase-D77E4B41,Turdus migratorius,Passeriformes,Turdidae,Thrushes and Allies,species,28633,NA,FALSE
+Cedar Waxwing,cedwax,avibase-9437D635,Bombycilla cedrorum,Passeriformes,Bombycillidae,Waxwings,species,29888,NA,FALSE
+Phainopepla,phaino,avibase-BD929CBC,Phainopepla nitens,Passeriformes,Ptiliogonatidae,Silky-flycatchers,species,29909,NA,FALSE
+Scaly-breasted Munia,nutman,avibase-6D4F72B1,Lonchura punctulata,Passeriformes,Estrildidae,Waxbills and Allies,species,31076,NA,FALSE
+House Sparrow,houspa,avibase-240E3390,Passer domesticus,Passeriformes,Passeridae,Old World Sparrows,species,31534,NA,FALSE
+American Pipit,amepip,avibase-CDA2E56B,Anthus rubescens,Passeriformes,Motacillidae,Wagtails and Pipits,species,31883,NA,FALSE
+House Finch,houfin,avibase-89431E9F,Haemorhous mexicanus,Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",species,32310,NA,FALSE
+Purple Finch,purfin,avibase-B4EE123D,Haemorhous purpureus,Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",species,32324,NA,FALSE
+Purple Finch (Western),purfin2,avibase-B759829F,Haemorhous purpureus californicus,Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",issf,32326,purfin,NA
+House/Purple Finch,y00338,avibase-FF9212FE,Haemorhous mexicanus/purpureus,Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",slash,32328,NA,NA
+Red Crossbill,redcro,avibase-135564AA,Loxia curvirostra,Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",species,32498,NA,FALSE
+Pine Siskin,pinsis,avibase-B48335B1,Spinus pinus,Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",species,32595,NA,FALSE
+Lesser Goldfinch,lesgol,avibase-CD5C21CA,Spinus psaltria,Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",species,32609,NA,FALSE
+Lawrence's Goldfinch,lawgol,avibase-C27D9E26,Spinus lawrencei,Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",species,32616,NA,FALSE
+American Goldfinch,amegfi,avibase-C9ABA616,Spinus tristis,Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",species,32617,NA,FALSE
+new world goldfinch sp.,goldfi,avibase-A2EB3A7A,Spinus sp. (goldfinch sp.),Passeriformes,Fringillidae,"Finches, Euphonias, and Allies",spuh,32626,NA,NA
+Lapland Longspur,laplon,avibase-3534E4CE,Calcarius lapponicus,Passeriformes,Calcariidae,Longspurs and Snow Buntings,species,32664,NA,FALSE
+Grasshopper Sparrow,graspa,avibase-5BFFE091,Ammodramus savannarum,Passeriformes,Passerellidae,New World Sparrows,species,32943,NA,FALSE
+Chipping Sparrow,chispa,avibase-37E9CCDA,Spizella passerina,Passeriformes,Passerellidae,New World Sparrows,species,32990,NA,FALSE
+Clay-colored Sparrow,clcspa,avibase-486265CF,Spizella pallida,Passeriformes,Passerellidae,New World Sparrows,species,32996,NA,FALSE
+Brewer's Sparrow,brespa,avibase-29967541,Spizella breweri,Passeriformes,Passerellidae,New World Sparrows,species,33007,NA,FALSE
+Lark Sparrow,larspa,avibase-78509A5D,Chondestes grammacus,Passeriformes,Passerellidae,New World Sparrows,species,33029,NA,FALSE
+Lark Bunting,larbun,avibase-938C5572,Calamospiza melanocorys,Passeriformes,Passerellidae,New World Sparrows,species,33032,NA,FALSE
+Fox Sparrow,foxspa,avibase-3A7B1F59,Passerella iliaca,Passeriformes,Passerellidae,New World Sparrows,species,33099,NA,FALSE
+Fox Sparrow (Sooty),foxsp2,avibase-2D663DC8,Passerella iliaca [unalaschcensis Group],Passeriformes,Passerellidae,New World Sparrows,issf,33100,foxspa,NA
+Dark-eyed Junco,daejun,avibase-05FF3C9B,Junco hyemalis,Passeriformes,Passerellidae,New World Sparrows,species,33124,NA,FALSE
+Dark-eyed Junco (Slate-colored),slcjun,avibase-7C3C67B0,Junco hyemalis hyemalis/carolinensis,Passeriformes,Passerellidae,New World Sparrows,issf,33126,daejun,NA
+Dark-eyed Junco (Oregon),orejun,avibase-F52F581B,Junco hyemalis [oreganus Group],Passeriformes,Passerellidae,New World Sparrows,issf,33130,daejun,NA
+White-crowned Sparrow,whcspa,avibase-8601A467,Zonotrichia leucophrys,Passeriformes,Passerellidae,New World Sparrows,species,33187,NA,FALSE
+White-crowned Sparrow (Dark-lored),whcspa2,avibase-437CC8EE,Zonotrichia leucophrys leucophrys/oriantha,Passeriformes,Passerellidae,New World Sparrows,form,33188,whcspa,NA
+White-crowned Sparrow (Gambel's),gwcspa,avibase-DCA59B9B,Zonotrichia leucophrys gambelii,Passeriformes,Passerellidae,New World Sparrows,issf,33191,whcspa,NA
+White-crowned Sparrow (Yellow-billed),whcspa3,avibase-9E311669,Zonotrichia leucophrys nuttalli/pugetensis,Passeriformes,Passerellidae,New World Sparrows,form,33192,whcspa,NA
+White-crowned Sparrow (pugetensis),pswspa1,avibase-9D5921BF,Zonotrichia leucophrys pugetensis,Passeriformes,Passerellidae,New World Sparrows,issf,33194,whcspa,NA
+Golden-crowned Sparrow,gocspa,avibase-BD61BDEC,Zonotrichia atricapilla,Passeriformes,Passerellidae,New World Sparrows,species,33196,NA,FALSE
+White-throated Sparrow,whtspa,avibase-39BD9FF2,Zonotrichia albicollis,Passeriformes,Passerellidae,New World Sparrows,species,33201,NA,FALSE
+Vesper Sparrow,vesspa,avibase-3647E146,Pooecetes gramineus,Passeriformes,Passerellidae,New World Sparrows,species,33217,NA,FALSE
+Savannah Sparrow,savspa,avibase-31CE00C7,Passerculus sandwichensis,Passeriformes,Passerellidae,New World Sparrows,species,33244,NA,FALSE
+Savannah Sparrow (Savannah),savspa4,avibase-FDB0B4B8,Passerculus sandwichensis [sandwichensis Group],Passeriformes,Passerellidae,New World Sparrows,issf,33245,savspa,NA
+Savannah Sparrow (Belding's),bldspa,avibase-3C974C47,Passerculus sandwichensis [guttatus Group],Passeriformes,Passerellidae,New World Sparrows,issf,33260,savspa,NA
+Song Sparrow,sonspa,avibase-A5F09E05,Melospiza melodia,Passeriformes,Passerellidae,New World Sparrows,species,33277,NA,FALSE
+Song Sparrow (heermanni Group),sonspa5,avibase-C45F7C5E,Melospiza melodia [heermanni Group],Passeriformes,Passerellidae,New World Sparrows,issf,33293,sonspa,NA
+Lincoln's Sparrow,linspa,avibase-AF49F890,Melospiza lincolnii,Passeriformes,Passerellidae,New World Sparrows,species,33310,NA,FALSE
+Swamp Sparrow,swaspa,avibase-4E192262,Melospiza georgiana,Passeriformes,Passerellidae,New World Sparrows,species,33315,NA,FALSE
+California Towhee,caltow,avibase-B745D852,Melozone crissalis,Passeriformes,Passerellidae,New World Sparrows,species,33350,NA,FALSE
+Rufous-crowned Sparrow,rucspa,avibase-7784B060,Aimophila ruficeps,Passeriformes,Passerellidae,New World Sparrows,species,33371,NA,FALSE
+Spotted Towhee,spotow,avibase-58E25701,Pipilo maculatus,Passeriformes,Passerellidae,New World Sparrows,species,33386,NA,FALSE
+Spotted Towhee (oregonus Group),spotow1,avibase-D98CADDC,Pipilo maculatus [oregonus Group],Passeriformes,Passerellidae,New World Sparrows,issf,33387,spotow,NA
+new world sparrow sp.,sparro1,avibase-081D9B25,Passerellidae sp.,Passeriformes,Passerellidae,New World Sparrows,spuh,33520,NA,NA
+Yellow-breasted Chat,yebcha,avibase-734C73A9,Icteria virens,Passeriformes,Icteriidae,Yellow-breasted Chat,species,33559,NA,FALSE
+Yellow-headed Blackbird,yehbla,avibase-3E2D0C9B,Xanthocephalus xanthocephalus,Passeriformes,Icteridae,Troupials and Allies,species,33563,NA,FALSE
+Bobolink,boboli,avibase-F845062F,Dolichonyx oryzivorus,Passeriformes,Icteridae,Troupials and Allies,species,33564,NA,FALSE
+Western Meadowlark,wesmea,avibase-4A5B4883,Sturnella neglecta,Passeriformes,Icteridae,Troupials and Allies,species,33565,NA,FALSE
+Orchard Oriole,orcori,avibase-000482C9,Icterus spurius,Passeriformes,Icteridae,Troupials and Allies,species,33679,NA,FALSE
+Hooded Oriole,hooori,avibase-526A3692,Icterus cucullatus,Passeriformes,Icteridae,Troupials and Allies,species,33682,NA,FALSE
+Bullock's Oriole,bulori,avibase-7E65A952,Icterus bullockii,Passeriformes,Icteridae,Troupials and Allies,species,33736,NA,FALSE
+Baltimore Oriole,balori,avibase-5110842F,Icterus galbula,Passeriformes,Icteridae,Troupials and Allies,species,33770,NA,FALSE
+Bullock's/Baltimore Oriole,y00022,avibase-669BEE87,Icterus bullockii/galbula,Passeriformes,Icteridae,Troupials and Allies,slash,33772,NA,NA
+new world oriole sp.,oriole,avibase-DA4F8035,Icterus sp.,Passeriformes,Icteridae,Troupials and Allies,spuh,33777,NA,NA
+Red-winged Blackbird,rewbla,avibase-C86D078E,Agelaius phoeniceus,Passeriformes,Icteridae,Troupials and Allies,species,33779,NA,FALSE
+Red-winged/Tricolored Blackbird,y00651,avibase-CC7CAC82,Agelaius phoeniceus/tricolor,Passeriformes,Icteridae,Troupials and Allies,slash,33808,NA,NA
+Brown-headed Cowbird,bnhcow,avibase-1E1AB415,Molothrus ater,Passeriformes,Icteridae,Troupials and Allies,species,33833,NA,FALSE
+Brewer's Blackbird,brebla,avibase-EA5E858A,Euphagus cyanocephalus,Passeriformes,Icteridae,Troupials and Allies,species,33851,NA,FALSE
+Great-tailed Grackle,grtgra,avibase-5CBA3391,Quiscalus mexicanus,Passeriformes,Icteridae,Troupials and Allies,species,33864,NA,FALSE
+blackbird sp.,blackb,avibase-D572AE1C,Icteridae sp.,Passeriformes,Icteridae,Troupials and Allies,spuh,33944,NA,NA
+Black-and-white Warbler,bawwar,avibase-4D207AF6,Mniotilta varia,Passeriformes,Parulidae,New World Warblers,species,33962,NA,FALSE
+Tennessee Warbler,tenwar,avibase-D204A930,Leiothlypis peregrina,Passeriformes,Parulidae,New World Warblers,species,33972,NA,FALSE
+Orange-crowned Warbler,orcwar,avibase-FFF61080,Leiothlypis celata,Passeriformes,Parulidae,New World Warblers,species,33973,NA,FALSE
+Orange-crowned Warbler (Gray-headed),orcwar5,avibase-6EC108A8,Leiothlypis celata celata/orestera,Passeriformes,Parulidae,New World Warblers,form,33974,orcwar,NA
+Orange-crowned Warbler (lutescens),orcwar3,avibase-F66823A4,Leiothlypis celata lutescens,Passeriformes,Parulidae,New World Warblers,issf,33977,orcwar,NA
+Orange-crowned Warbler (sordida),orcwar4,avibase-E1EE2C92,Leiothlypis celata sordida,Passeriformes,Parulidae,New World Warblers,issf,33978,orcwar,NA
+Lucy's Warbler,lucwar,avibase-E8EB3C96,Leiothlypis luciae,Passeriformes,Parulidae,New World Warblers,species,33980,NA,FALSE
+Nashville Warbler,naswar,avibase-183E5F90,Leiothlypis ruficapilla,Passeriformes,Parulidae,New World Warblers,species,33981,NA,FALSE
+Nashville Warbler (ridgwayi),naswar2,avibase-A468E19C,Leiothlypis ruficapilla ridgwayi,Passeriformes,Parulidae,New World Warblers,issf,33983,naswar,NA
+MacGillivray's Warbler,macwar,avibase-85106518,Geothlypis tolmiei,Passeriformes,Parulidae,New World Warblers,species,34005,NA,FALSE
+Common Yellowthroat,comyel,avibase-BA4C8A02,Geothlypis trichas,Passeriformes,Parulidae,New World Warblers,species,34028,NA,FALSE
+American Redstart,amered,avibase-BED38F50,Setophaga ruticilla,Passeriformes,Parulidae,New World Warblers,species,34058,NA,FALSE
+Northern Yellow Warbler,yelwar1,avibase-B64C749B,Setophaga aestiva,Passeriformes,Parulidae,New World Warblers,species,34087,NA,FALSE
+Palm Warbler,palwar,avibase-4AAEF549,Setophaga palmarum,Passeriformes,Parulidae,New World Warblers,species,34148,NA,FALSE
+Palm Warbler (Western),palwar3,avibase-BFE4314B,Setophaga palmarum palmarum,Passeriformes,Parulidae,New World Warblers,issf,34149,palwar,NA
+Yellow-rumped Warbler,yerwar,avibase-BC5A9498,Setophaga coronata,Passeriformes,Parulidae,New World Warblers,species,34159,NA,FALSE
+Yellow-rumped Warbler (Myrtle),myrwar,avibase-524C7116,Setophaga coronata coronata,Passeriformes,Parulidae,New World Warblers,issf,34160,yerwar,NA
+Yellow-rumped Warbler (Audubon's),audwar,avibase-631CB970,Setophaga coronata auduboni,Passeriformes,Parulidae,New World Warblers,issf,34161,yerwar,NA
+Yellow-rumped Warbler (Myrtle x Audubon's),yerwar3,avibase-98953427,Setophaga coronata coronata x auduboni,Passeriformes,Parulidae,New World Warblers,intergrade,34162,yerwar,NA
+Yellow-throated Warbler,yetwar,avibase-136451CF,Setophaga dominica,Passeriformes,Parulidae,New World Warblers,species,34171,NA,FALSE
+Grace's Warbler,grawar,avibase-946DCF53,Setophaga graciae,Passeriformes,Parulidae,New World Warblers,species,34194,NA,FALSE
+Black-throated Gray Warbler,btywar,avibase-6B7A93C5,Setophaga nigrescens,Passeriformes,Parulidae,New World Warblers,species,34200,NA,FALSE
+Townsend's Warbler,towwar,avibase-F6C6C3F7,Setophaga townsendi,Passeriformes,Parulidae,New World Warblers,species,34206,NA,FALSE
+Hermit Warbler,herwar,avibase-0EB07C12,Setophaga occidentalis,Passeriformes,Parulidae,New World Warblers,species,34210,NA,FALSE
+Wilson's Warbler,wlswar,avibase-1F09CCCC,Cardellina pusilla,Passeriformes,Parulidae,New World Warblers,species,34346,NA,FALSE
+Wilson's Warbler (chryseola),wilwar3,avibase-64FDA02D,Cardellina pusilla chryseola,Passeriformes,Parulidae,New World Warblers,issf,34349,wlswar,NA
+new world warbler sp.,warble,avibase-62BC6EC7,Parulidae sp.,Passeriformes,Parulidae,New World Warblers,spuh,34397,NA,NA
+Western Tanager,westan,avibase-0ADA5F17,Piranga ludoviciana,Passeriformes,Cardinalidae,Cardinals and Allies,species,34439,NA,FALSE
+Black-headed Grosbeak,bkhgro,avibase-824361E5,Pheucticus melanocephalus,Passeriformes,Cardinalidae,Cardinals and Allies,species,34559,NA,FALSE
+Blue Grosbeak,blugrb1,avibase-A7A75EA1,Passerina caerulea,Passeriformes,Cardinalidae,Cardinals and Allies,species,34598,NA,FALSE
+Lazuli Bunting,lazbun,avibase-9F67F3AF,Passerina amoena,Passeriformes,Cardinalidae,Cardinals and Allies,species,34606,NA,FALSE
+passerine sp.,passer1,avibase-CFD25837,Passeriformes sp.,Passeriformes,NA,NA,spuh,35852,NA,NA
+bird sp.,bird1,avibase-AF0D818A,Aves sp.,NA,NA,NA,spuh,35853,NA,NA
