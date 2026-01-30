@@ -2,7 +2,7 @@
 
 This repository is for working with Santa Barbara County ebird data.
 
-Purposes:
+Goals:
 
 1.  Use this as an exercise to familiarize myself with the ebird data structure and auk R package.
 
