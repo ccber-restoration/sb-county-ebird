@@ -8,7 +8,9 @@ Goals:
 
 2.  Create subsets of SB County ebird data relevant to different projects and sites (e.g. NCOS, Campus Lagoon, multiple W. Goleta Slough sites, Atascadero Creek)
 
-3.  Do some preliminary analyses.
+3.  Save species lists for locations (the overall county, individual hotspots) that are consistent with 2025 ebird taxonomy.
+
+4.  Do some preliminary analyses (starting with NCOS).
 
 ## Repository structure
 
