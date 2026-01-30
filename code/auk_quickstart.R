@@ -61,6 +61,9 @@ ebird_data <- f_in |>
 ncos_data <- ebird_data %>% 
   filter(locality == "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)")
 
+write_rds(ncos_data, "data-processed/ncos_data.rds")
+
+
 ncos_species_df <- ncos_data %>% 
   #when there is subspecies, make the common name the subspecies_common name
   mutate(new_common_name = case_when(
