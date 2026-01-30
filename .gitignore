@@ -6,3 +6,6 @@
 .zip
 /ebd_US-CA-083_smp_relDec-2025/
 ebd_US-CA-083_smp_relDec-2025.zip
+/data-processed/ncos_data.rds
+ebd_filtered_sb.txt
+ebd_filtered_south_coast.txt
