@@ -23,6 +23,9 @@ Goals:
 ## Resources (links to external data sources, other relevant repositories, etc.)
 
 -   auk package documentation: <https://cornelllabofornithology.github.io/auk/>
+-   older (2020) workshop materials: https://strimas.com/ebp-workshop/
+-   Best Practices for Using eBird Data:  
+    -   Strimas-Mackey, M., W.M. Hochachka, V. Ruiz-Gutierrez, O.J. Robinson, E.T. Miller, T. Auer, S. Kelling, D. Fink, A. Johnston. 2023. Best Practices for Using eBird Data. Version 2.0. https://ebird.github.io/ebird-best-practices/. Cornell Lab of Ornithology, Ithaca, New York. https://doi.org/10.5281/zenodo.3620739
 
 ## References
 
