@@ -1,0 +1,23 @@
+NY--Nest with Young – Nest with young seen or heard. Typically considered Confirmed.
+NE--Nest with Eggs – Nest with eggs. Typically considered Confirmed.
+FS--Carrying Fecal Sac – Adult carrying fecal sac. Typically considered Confirmed.
+FY--Feeding Young – Adult feeding young that have left the nest, but are not yet flying and independent (should not be used with raptors, terns, and other species that may move many miles from the nest site). Typically considered Confirmed.
+CF--Carrying Food – Adult carrying food for young (should not be used for corvids, raptors, terns, and certain other species that regularly carry food for courtship or other purposes). Typically considered Confirmed.
+FL--Recently Fledged young – Recently fledged or downy young observed while still dependent upon adults. Typically considered Confirmed.
+ON--Occupied Nest – Occupied nest presumed by parent entering and remaining, exchanging incubation duties, etc. Typically considered Confirmed.
+UN--Used nest – Unoccupied nest, typically with young already fledged and no longer active, observed and conclusively identified as belonging to the entered species; note that this breeding code may accompany a count of "0" if no live birds were seen/heard on the checklist. Typically considered Confirmed.
+DD--Distraction Display – Distraction display, including feigning injury. Typically considered Confirmed.
+NB--Nest Building – Nest building at apparent nest site (should not be used for certain wrens, and other species that build dummy nests). Typically considered Confirmed, sometimes Probable.
+CN--Carrying Nesting Material – Adult carrying nesting material; nest site not seen. Typically considered Confirmed, sometimes Probable.
+PE--Brood Patch and Physiological Evidence – Physiological evidence of nesting, usually a brood patch. This will be used only very rarely. Typically considered Confirmed.
+B--Woodpecker/Wren nest building – Nest building at apparent nest site observed in Woodpeckers (Family: Picidae) or Wrens (Family: Troglodytidae)—species in both families known to build dummy nests or roost cavities. Typically considered Probable.
+A--Agitated behavior – Agitated behavior or anxiety calls from an adult (ex. "pishing" and strong tape responses). Typically considered Probable.
+N--Visiting probable Nest site – Visiting repeatedly probable nest site (primarily hole nesters). Typically considered Probable.
+C--Courtship, Display or Copulation – Courtship or copulation observed, including displays and courtship feeding. Typically considered Probable.
+T--Territorial defense – Permanent territory presumed through defense of breeding territory by fighting or chasing individuals of same species. Typically considered Probable.
+P--Pair in suitable habitat – Pair observed in suitable breeding habitat within breeding season. Typically considered Probable.
+M--Multiple (7+) singing males. – Count of seven or more signing males observed in a given area. Typically considered Probable.
+S7--Singing male present 7+ days – Singing male, presumably the same individual, present in suitable nesting habitat during its breeding season and holding territory in the same area on visits at least 7 days apart. Typically considered Probable.
+S--Singing male – Singing male present in suitable nesting habitat during its breeding season. Typically considered Possible.
+H--In appropriate habitat – Adult in suitable nesting habitat during its breeding season. Typically considered Possible.
+F--Flyover – Flying over only. This is not necessarily a breeding code, but can be a useful behavioral distinction, as it indicates that a bird was not interacting with the landscape underneath it.
