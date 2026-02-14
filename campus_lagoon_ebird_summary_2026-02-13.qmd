@@ -1,0 +1,131 @@
+---
+title: "Campus Lagoon eBird data summary"
+format: docx
+editor: visual
+author: Francis H. Joyce
+---
+
+Francis H. Joyce
+
+13 February 2026
+
+## Background
+
+This is a quick analysis of eBird data available for the Campus Lagoon eBird hotspot ("[**UCSB--Campus Lagoon**](https://ebird.org/hotspot/L1072372)**" as of December 2025.**
+
+The hotspot details page reports that **256 species have been recorded here (across all years), in 2,884 checklists, by 822 eBirders**.
+
+
+Here I look at the number of species reported per year, the number of checklists submitted per year, and the relationship between those two variables.
+
+Notes:
+
+-   The code to generate this summary is in [this GitHub repository](https://github.com/ccber-restoration/sb-county-ebird). Because of the large file sizes, the repository does not contain the data, which can be downloaded from eBird after submitting a data download request.
+
+-   This includes monthly CCBER surveys at Campus Lagoon if they were submitted to eBird
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+library(tidyverse)
+library(cowplot)
+#use ncos_data object 
+
+cl_data <- read_rds("data-processed/cl_data.rds")
+
+#note that infra-species taxa should be rolled up, this is just a rough cut
+cl_species_richness <- cl_data %>% 
+  #filter to category == species
+  filter(category == "species") %>% 
+  mutate(year = year(observation_date)) %>% 
+  group_by(year) %>% 
+  summarize(species_richness = n_distinct(common_name),
+            n_checklists = n_distinct(checklist_id))
+
+```
+
+
+{{< pagebreak >}}
+
+## Preliminary figures
+
+```{r}
+#| echo: false
+#| label: fig-cl-sp_richness
+#| fig-cap: Number of species recorded at the UCSB Campus Lagoon eBird hotspot per calendar year.
+#plot over time
+fig_cl_sr <- ggplot(data = cl_species_richness, aes(x = year, y = species_richness)) +
+  geom_point() +
+  theme_cowplot() +
+  xlab("Year") +
+  ylab("Species recorded")
+
+fig_cl_sr
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-cl-sp_richness-recent
+#| fig-cap: Number of species recorded per year between 2010 and 2025.
+#plot over time
+fig_cl_sr_recent <- ggplot(data = cl_species_richness, aes(x = year, y = species_richness)) +
+  geom_point() +
+  scale_x_continuous(limits = c(2010,2025), breaks = seq(2010, 2025, 2)) +
+  theme_cowplot() +
+  xlab("Year") +
+  ylab("Species recorded")
+
+fig_cl_sr_recent
+
+```
+
+```{r}
+#| echo: false
+#| label: fig-cl-checklists
+#| fig-cap: Number of checklists submitted at the UCSB Campus Lagoon eBird hotspot per calendar year.
+
+fig_cl_checklists <- ggplot(data = cl_species_richness, aes(x = year, y = n_checklists)) +
+  geom_point() +
+  theme_cowplot() +
+  xlab("Year") +
+  ylab("eBird Checklists")
+
+fig_cl_checklists  
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-cl-checklists-recent
+#| fig-cap: Number of checklists submitted at Campus Lagoon between 2010-2025. 
+
+fig_cl_checklists_recent <- fig_cl_checklists <- ggplot(data = cl_species_richness, aes(x = year, y = n_checklists)) +
+  geom_point() +
+  scale_x_continuous(limits = c(2010, 2025), breaks = seq(2010, 2025, by = 2)) +
+  theme_cowplot() +
+  xlab("Year") +
+  ylab("eBird Checklists")
+
+fig_cl_checklists_recent  
+
+```
+
+```{r}
+#| echo: false
+#| label: fig-cl-sp-vs-checklists
+#| fig-cap: Number of species recorded per year in relation to the number of checklists submitted per year.
+
+fig_sp_vs_checklists_cl <- ggplot(data = cl_species_richness, aes(x = n_checklists, y = species_richness)) +
+  geom_point() +
+  theme_cowplot() +
+  xlab("Checklists per year") +
+  ylab("Species recorded per year")
+
+fig_sp_vs_checklists_cl
+
+```
