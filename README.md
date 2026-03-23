@@ -16,7 +16,7 @@ Goals:
 
 ## Data
 
--   note that the ebird data set, even for Santa Barbara county, is too large to track via git/github. Download the monthly database snapshot and put in your local copy of the repo, following the structure in the script.
+-   note that the ebird data set, even for Santa Barbara county, is too large to track via git/github. Download the monthly database snapshot (FHJ has in a Google Drive folder) and put in your local copy of the repo, following the structure in the script.
 
 ## Code
 
