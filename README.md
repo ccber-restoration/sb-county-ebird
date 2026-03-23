@@ -20,6 +20,8 @@ Goals:
 
 ## Code
 
+- auk_quickstart.R is used for loading Santa Barbara County ebird data and filtering it. 
+
 ## Resources (links to external data sources, other relevant repositories, etc.)
 
 -   auk package documentation: <https://cornelllabofornithology.github.io/auk/>
