@@ -71,6 +71,8 @@ ebird_data <- f_in |>
 
 # 2M observations
 
+n_distinct(ebird_data$checklist_id)
+
 #filter to NCOS ----
 ncos_data <- ebird_data %>% 
   filter(locality == "UCSB North Campus Open Space (formerly Ocean Meadows Golf Course)")
