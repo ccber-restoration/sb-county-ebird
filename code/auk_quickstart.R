@@ -43,6 +43,8 @@ cl_checklists <- checklists %>%
 
 #2,852 checklists
 
+write_csv(cl_checklists, "data-processed/cl_checklists.csv")
+
 #define filepath to actual survey data ----
 f_in <- "ebd_US-CA-083_smp_relDec-2025/ebd_US-CA-083_smp_relDec-2025.txt"
 
@@ -107,6 +109,8 @@ cl_data <- ebird_data %>%
 
 write_rds(cl_data, "data-processed/cl_data.rds")
 
+write_csv(cl_data, "data-processed/cl_data.csv")
+
 cl_species_df <- cl_data %>% 
   #when there is subspecies, make the common name the subspecies_common name
   mutate(new_common_name = case_when(
@@ -124,3 +128,12 @@ cl_ebird_taxonomy <- cl_full_list %>%
   arrange(taxonomic_order)
 
 write_csv(cl_ebird_taxonomy, file = "data-processed/cl_ebird_list.csv")
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ----
+
+# list of localities
+
+localities <- unique(ebird_data$locality) %>% 
+  as.data.frame()
+ 
+
